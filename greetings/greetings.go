@@ -1,6 +1,9 @@
 package greetings
 
-import "fmt"
+import (
+	"errors"
+	"fmt"
+)
 
 // return a greeting with an emeded name in in a message
 
