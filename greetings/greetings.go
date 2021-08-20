@@ -19,7 +19,7 @@ func Hello(name string) (string, error) {
 	return message, nil
 }
     // returns a map that associates eaech of the named people with a specific greeting
-	func Hellos(name []string) (map[string]string, error) {
+	func Hellos(names []string) (map[string]string, error) {
 		// A map to associate names with messages
 		messages := make(map[string]string)
 		// loop through the received slice of names, calling Hello to get a message

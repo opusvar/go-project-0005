@@ -15,12 +15,12 @@ func main() {
 	// A slice of names.
 	names := []string{"Gladys", "Samantha", "Darrin"}
 
-	message, err := greetings.Hello(names)
+	messages, err := greetings.Hellos(names)
 	// catch an error, print it to the console, and exit the program
     if err != nil {
 		log.Fatal(err)
 	}
 
     // if no error is detected, run code as expected.
-	fmt.Println(message)
+	fmt.Println(messages)
 }
